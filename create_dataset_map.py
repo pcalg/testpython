@@ -55,8 +55,9 @@ def generate_dataset(location, img_orig, img_labels, img_size):
 def main(args):
     # generate the dataset
 
-    # Load an color image in grayscale
+    # Load an color image
     img_orig = io.imread(args['image'])
+    # Load a binary (black/white) image
     img_labels = io.imread(args['label'])
 
     print(img_orig.shape)
