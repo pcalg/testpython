@@ -1,4 +1,4 @@
 testpython
 ==========
 
-First testproject
+This project contains Python examples.
